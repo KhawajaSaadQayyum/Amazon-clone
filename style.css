@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url('Assests/amazon_logo.png');
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border :hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    margin: 10px;
+}
+.nav-address:hover{
+    border: 1.5px solid white;
+}
+.address-logo{
+    display: flex;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.7rem;
+    
+}
+.add-sec{
+    font-size: 1rem;
+}
+.fa-solid{
+    margin: 2px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 40px;
+    
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 1px solid orange;
+}
+.nav-sel{
+    height: 100%;
+    width: 40px;
+    background-color: #f3f3f3;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-items: center;
+    /* border-radius: 2px; */
+}
+.nav-ser{
+    border: none;
+    width: 100%;
+    font-size: larger;
+    height: 100%;
+}
+.search-icon{
+    background-color: rgb(226, 158, 33);
+    height: 100%;
+    width: 50px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.border-hello:hover{
+ border: 1.5px solid white;
+ border-radius: 3px;
+}
+span{
+    font-size: smaller;
+}
+.add-to-cart i{
+    font-size: 2rem;
+}
+.order-border:hover{
+border: 1.5px solid;
+}
+.cart-radius:hover{
+border: 1.5px solid;
+}
+.panel{
+    width: 100%;
+    height: 40px;
+    background-color:#222f3d;
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.panel-all:hover{
+   cursor: pointer;
+   border: 1px solid white;
+    
+}
+.panel-options{
+display: flex;
+
+width: 75%;
+}
+.panel-options p:hover{
+    cursor: pointer;
+    border: 1px solid white;
+     
+ }
+.panel-options p{
+    display: inline;
+    margin-left: 25px;
+}
+.panel-deals:hover{
+    cursor: pointer;
+    border: 1px solid white;
+   
+     
+ }
+ .hero-section{
+    background-image: url("Assests/hero_image.jpg");
+    height: 300px;
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: end;
+ }
+ .hero-msg{
+    background-color: white;
+    color: #0f1111;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+ }
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #33485f;
+    height: 350px;
+ }
+ .box{
+    width: 23%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+ }
+
