@@ -26,7 +26,7 @@
     border: 1.5px solid transparent;
 }
 .border :hover{
-    border: 1.5px solid white;
+    border-bottom: 1.5px solid white;
 }
 .nav-address{
     margin: 10px;
@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 .border-hello:hover{
- border: 1.5px solid white;
+    border-bottom: 1.5px solid white;
  border-radius: 3px;
 }
 span{
@@ -104,7 +104,7 @@ span{
 border: 1.5px solid;
 }
 .cart-radius:hover{
-border: 1.5px solid;
+    border-bottom: 1.5px solid;
 }
 .panel{
     width: 100%;
@@ -118,7 +118,7 @@ border: 1.5px solid;
 }
 .panel-all:hover{
    cursor: pointer;
-   border: 1px solid white;
+   border-bottom: 1px solid white;
     
 }
 .panel-options{
@@ -128,7 +128,7 @@ width: 75%;
 }
 .panel-options p:hover{
     cursor: pointer;
-    border: 1px solid white;
+    border-bottom: 2px solid #537396;
      
  }
 .panel-options p{
@@ -137,7 +137,7 @@ width: 75%;
 }
 .panel-deals:hover{
     cursor: pointer;
-    border: 1px solid white;
+    border-bottom: 2px solid #537396;
    
      
  }
